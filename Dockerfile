@@ -3,4 +3,4 @@ RUN pip install flask
 RUN pip install requests
 RUN pip install jsonify
 COPY . .
-CMD ["python","./main.py"]
+CMD ["python","./app.py"]
